@@ -19,6 +19,7 @@
   width: 100%;
   align-items: center;
   justify-content: center;
+  padding-bottom: 100px;
 }
 .imagen-header{
   flex: 2;
@@ -40,21 +41,41 @@
   background-color: #1F2937;
   width: 100%;
   align-items: center;
-  justify-content: space-between;
+  padding-bottom: 200px;
+  gap: 200px;
 }
 .segunda-seccion-izq {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   color: #f9faf8;
   margin-left: 400px;
-  width: 600px;
+  width: 50%;
 }
 .segunda-seccion-izq-b{
   font-size: 48px;
   font-weight: 700;
 }
+.boton1{
+  background-color: #3882F6;
+  border-radius: 10px;
+  border: none;
+  color: #f9faf8;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 10px 30px;
+  align-self: start;
+  cursor:pointer;
+}
 
 .segunda-seccion-der{
    margin-right: 400px;
+   display: flex;
+   width: 50%;
 }
 .img2{
-  height: 200px;
+  max-height: 900px;
+  width: 100%;
+  object-fit: contain;
 }
+
